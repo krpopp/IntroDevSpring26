@@ -17,7 +17,6 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36E0AAA8","properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":82.0,"y":197.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38789415","properties":[],"isDnd":false,"objectId":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":40.0,"y":245.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A331C63","properties":[],"isDnd":false,"objectId":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":245.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B4F8F3F","properties":[],"isDnd":false,"objectId":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":89.0,"y":245.0,},
@@ -26,6 +25,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7924D805","properties":[],"isDnd":false,"objectId":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":54.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C9A6D80","properties":[],"isDnd":false,"objectId":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":82.0,"y":157.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55EA3D3B","properties":[],"isDnd":false,"objectId":{"name":"obj_burger","path":"objects/obj_burger/obj_burger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":106.0,"y":157.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50C3263A","properties":[],"isDnd":false,"objectId":{"name":"obj_player_two","path":"objects/obj_player_two/obj_player_two.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74E79F2E","properties":[],"isDnd":false,"objectId":{"name":"obj_player_one","path":"objects/obj_player_one/obj_player_one.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_669BACAE","properties":[],"isDnd":false,"objectId":{"name":"obj_star_manager","path":"objects/obj_star_manager/obj_star_manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":160.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4294944068,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
@@ -33,7 +35,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_36E0AAA8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_38789415","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2A331C63","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7B4F8F3F","path":"rooms/Room1/Room1.yy",},
@@ -42,6 +43,9 @@
     {"name":"inst_7924D805","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4C9A6D80","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_55EA3D3B","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_50C3263A","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_74E79F2E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_669BACAE","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

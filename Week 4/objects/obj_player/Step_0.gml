@@ -62,9 +62,9 @@ x += to_move_x;
 
 //if we press the movement keys
 //accelerate the x velocity in the appropriate direction
-if(keyboard_check(vk_left)){
+if(keyboard_check(left_key)){
 	x_vel -= accel;	
 }
-if(keyboard_check(vk_right)){
+if(keyboard_check(right_key)){
 	x_vel += accel;
 }
