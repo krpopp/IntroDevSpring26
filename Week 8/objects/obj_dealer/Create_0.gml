@@ -12,6 +12,16 @@ deck = ds_list_create();
 player_hand = ds_list_create();
 discard = ds_list_create();
 
+enum STATES {
+	DEALING,
+	SELECTING,
+	COMPARING,
+	RESOLVING,
+	RESHUFFLING
+}
+
+state = STATES.DEALING;
+
 //CHANGE LATER: booleans to track game state
 dealing = true;
 resolve = false;
@@ -25,6 +35,9 @@ select_two = noone;
 for(var _i = 0; _i < num_cards; _i++) {
 	//make a card, set it up, add it to the deck
 	var _new_card = instance_create_layer(x, y, "Instances", obj_card);
+	_new_card.target_x = x;
+	_new_card.target_y = y;
+	_new_card.target_depth = 0;
 	_new_card.in_hand = false;
 	_new_card.face_up = false;
 	//% means modulo
@@ -41,8 +54,10 @@ ds_list_shuffle(deck);
 //loop through and place the cards in the correct position
 //staggered to look like a deck
 for(var _i = 0; _i < num_cards; _i++){
-	deck[| _i].y = y - 2 * _i;
-	deck[| _i].depth = num_cards - _i;
+	deck[| _i].target_y = y - 2 * _i;
+	deck[| _i].target_depth = num_cards - _i;
+	//deck[| _i].y = y - 2 * _i;
+	//deck[| _i].depth = num_cards - _i;
 }
 
 
